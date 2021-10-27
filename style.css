@@ -272,6 +272,82 @@ section{
     
 }
 
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);
+
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+
+}
+
+.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 5;
+}
+
+.menu .box-container .box .price span{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.menu .box-container .box:hover{
+    background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(outo-fit, minmax(30rem, 1fr));
+    gap:1,5rem;
+}
+.products .box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+    
+}
+
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.review .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding:3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2rem 0;
+}
 
 
 
