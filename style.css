@@ -39,6 +39,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: var(--bg);
+    color: #fff;
 }
 
 section{
@@ -108,10 +109,14 @@ section{
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
+    
 }
 
 .header .icons div:hover{
     color: var(--main-color);
+    
+
+    
 }
 
 #menu-btn{
@@ -333,6 +338,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+    
 
 }
 
@@ -340,12 +346,13 @@ section{
     border: var(--border);
     text-align: center;
     padding:3rem 2rem;
+    
 }
 
 .review .box-container .box p{
     font-size: 1.6rem;
     line-height: 1.8;
-    color: #ccc;
+    color:white;
     padding: 2rem 0;
 }
 
@@ -445,4 +452,4 @@ section{
     
     }
 }
-    
+
